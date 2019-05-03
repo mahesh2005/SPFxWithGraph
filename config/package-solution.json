@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-trial-1-client-side-solution",
+    "id": "4da72da3-8e2e-4d7b-9277-f08c6617c3bd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+     {
+       "resource": "Microsoft Graph",
+       "scope": "Directory.Read.All"
+     }
+   ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-trial-1.sppkg"
+  }
+}
